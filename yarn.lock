@@ -209,13 +209,33 @@
     "@types/jquery" "*"
     "@types/rsvp" "*"
 
-"@types/ember@*", "@types/ember@2.8.28", "@types/ember@^2.8.28":
+"@types/ember@*", "@types/ember@2.8.28":
   version "2.8.28"
   resolved "https://registry.yarnpkg.com/@types/ember/-/ember-2.8.28.tgz#6cd9ffc7d33ff12bcd187bcbdee6bf8c8cda1c8d"
   dependencies:
     "@types/handlebars" "*"
     "@types/jquery" "*"
     "@types/rsvp" "*"
+
+"@types/ember@^3.0.14":
+  version "3.0.14"
+  resolved "https://registry.yarnpkg.com/@types/ember/-/ember-3.0.14.tgz#c1c45c03e6f2c3fbfbdb758fbe5cc7c1207afa59"
+  dependencies:
+    "@types/ember__polyfills" "*"
+    "@types/ember__string" "*"
+    "@types/handlebars" "*"
+    "@types/jquery" "*"
+    "@types/rsvp" "*"
+
+"@types/ember__polyfills@*":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@types/ember__polyfills/-/ember__polyfills-3.0.1.tgz#efe630c9449f4faf3e4d5f450036d37ec85d1cd9"
+
+"@types/ember__string@*":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@types/ember__string/-/ember__string-3.0.1.tgz#d17c4e1716bd2a6b5fbc2d787da4bf732d5611fb"
+  dependencies:
+    "@types/handlebars" "*"
 
 "@types/handlebars@*":
   version "4.0.38"
