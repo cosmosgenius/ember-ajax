@@ -209,13 +209,55 @@
     "@types/jquery" "*"
     "@types/rsvp" "*"
 
-"@types/ember@*", "@types/ember@2.8.28", "@types/ember@^2.8.28":
+"@types/ember@*", "@types/ember@2.8.28":
   version "2.8.28"
   resolved "https://registry.yarnpkg.com/@types/ember/-/ember-2.8.28.tgz#6cd9ffc7d33ff12bcd187bcbdee6bf8c8cda1c8d"
   dependencies:
     "@types/handlebars" "*"
     "@types/jquery" "*"
     "@types/rsvp" "*"
+
+"@types/ember@^3.0.17":
+  version "3.0.18"
+  resolved "https://registry.yarnpkg.com/@types/ember/-/ember-3.0.18.tgz#2cb37bc4326d4cda828d53ed6010786d1b553c91"
+  dependencies:
+    "@types/ember__debug" "*"
+    "@types/ember__engine" "*"
+    "@types/ember__object" "*"
+    "@types/ember__polyfills" "*"
+    "@types/ember__string" "*"
+    "@types/ember__utils" "*"
+    "@types/handlebars" "*"
+    "@types/jquery" "*"
+    "@types/rsvp" "*"
+
+"@types/ember__debug@*":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@types/ember__debug/-/ember__debug-3.0.1.tgz#ee7ab2edf8619e2a26a0d6ecf509536f97b3c00e"
+
+"@types/ember__engine@*":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@types/ember__engine/-/ember__engine-3.0.2.tgz#4e0bcabc71d9ae92124d5e15ce176ef8f8c45654"
+
+"@types/ember__object@*":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@types/ember__object/-/ember__object-3.0.1.tgz#9d3b44bc59e81edf7748d75494b2918bf28ab298"
+  dependencies:
+    "@types/rsvp" "*"
+
+"@types/ember__polyfills@*":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@types/ember__polyfills/-/ember__polyfills-3.0.1.tgz#efe630c9449f4faf3e4d5f450036d37ec85d1cd9"
+
+"@types/ember__string@*":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@types/ember__string/-/ember__string-3.0.1.tgz#d17c4e1716bd2a6b5fbc2d787da4bf732d5611fb"
+  dependencies:
+    "@types/handlebars" "*"
+
+"@types/ember__utils@*":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@types/ember__utils/-/ember__utils-3.0.1.tgz#f08aa24920515400fec869cbf29df69c4773f6d0"
 
 "@types/handlebars@*":
   version "4.0.38"
