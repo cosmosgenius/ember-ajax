@@ -179,10 +179,15 @@
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.1.4.tgz#5ca073b330d90b4066d6ce18f60d57f2084ce8ca"
 
-"@types/ember-data@^2.14.17":
-  version "2.14.17"
-  resolved "https://registry.yarnpkg.com/@types/ember-data/-/ember-data-2.14.17.tgz#2395bd3ffcc1f6420ea852e3a83270a2d9a6c174"
+"@types/ember-data@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@types/ember-data/-/ember-data-3.0.3.tgz#8ff12d1419467b6af298a0c6f08194efaa879ca2"
   dependencies:
+    "@types/ember" "*"
+    "@types/ember__controller" "*"
+    "@types/ember__object" "*"
+    "@types/ember__routing" "*"
+    "@types/ember__test" "*"
     "@types/rsvp" "*"
 
 "@types/ember-mocha@^0.12.3":
@@ -216,6 +221,24 @@
     "@types/handlebars" "*"
     "@types/jquery" "*"
     "@types/rsvp" "*"
+
+"@types/ember__controller@*":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@types/ember__controller/-/ember__controller-3.0.2.tgz#b0b125b0f077a9f3a4d3c48d1131d6976607c05c"
+
+"@types/ember__object@*":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@types/ember__object/-/ember__object-3.0.3.tgz#859d043a7f78b944d5536cff154b8a89ff7c0f60"
+  dependencies:
+    "@types/rsvp" "*"
+
+"@types/ember__routing@*":
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/@types/ember__routing/-/ember__routing-3.0.4.tgz#b7df6623a6cc39b5ff32d26674997f67e7162e07"
+
+"@types/ember__test@*":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@types/ember__test/-/ember__test-3.0.1.tgz#1acc9298b79d656e992c6a027b51e191ef7b3f87"
 
 "@types/handlebars@*":
   version "4.0.38"
