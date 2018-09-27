@@ -185,9 +185,9 @@
   dependencies:
     "@types/rsvp" "*"
 
-"@types/ember-mocha@^0.12.3":
-  version "0.12.3"
-  resolved "https://registry.yarnpkg.com/@types/ember-mocha/-/ember-mocha-0.12.3.tgz#164ad52a15ce9391b04909ffc9a967106dd3f48c"
+"@types/ember-mocha@^0.14.4":
+  version "0.14.4"
+  resolved "https://registry.yarnpkg.com/@types/ember-mocha/-/ember-mocha-0.14.4.tgz#30049e435f1d084452a952b0797cdd1173357be4"
   dependencies:
     "@types/ember" "*"
     "@types/ember-test-helpers" "*"
